@@ -1,7 +1,7 @@
 import pickle
 import streamlit as st
 from streamlit_option_menu import option_menu
-disease = pickle.load(open(r"C:\Users\HP\PycharmProjects\heart\heartprediction.sav", "rb"))
+disease = pickle.load(open("heartprediction.sav", "rb"))
 #default index if it is 1 then first disease will be index one disease
 with st.sidebar:
     selected=option_menu("multiple  disease prediction",["heart disease","diabetis prediction"],
