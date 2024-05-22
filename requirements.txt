@@ -1,0 +1,4 @@
+numpy--1.26.3pi
+pickleshare--0.7.5
+streamlit-option-menu--0.3.12
+scikit-learn--1.4.0
